@@ -1,0 +1,62 @@
+body{
+	border: 20px solid white;
+	background: url(https://i.pinimg.com/originals/cc/17/eb/cc17ebd92afdac337d44dc9c4bda4413.jpg);
+	background-size: cover;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+
+}
+h1{
+color: white;
+padding: 20px;
+font-family: 'Fascinate', cursive;
+}
+h2{
+	color: white;
+	padding : 20px;
+	text-decoration: underline;
+}
+p{
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+h2{
+	font-family: 'Maven Pro', sans-serif;
+	color : white;
+}
+div{
+	color: white;
+	padding: 20px;
+}
+.quote{
+	border-left: 5px solid white;
+}
+.date{
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+hr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
